@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "infohub",
+  "version": "${version}",
+  "name": "InfoHub",
+  "description": "Client-only HUD overlay: speed, time-to-night/day, FPS, light level, nearby players/mobs, RTT, plus toggleable spawn markers.",
+  "authors": [
+    "cvonderstein"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "de.cvonderstein.infohub.InfoHubClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": ">=1.21",
+    "fabric-api": "*"
+  }
+}
